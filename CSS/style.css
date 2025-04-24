@@ -5,12 +5,12 @@
 }
 
 @font-face {
-    font-family: 'black han sans';
+    font-family: 'Black Han Sans';
     src: url('./fonts/BlackHanSans.ttf') format('truetype');
 }
 
 @font-face {
-    font-family: 'anonymous pro';
+    font-family: 'Anonymous Pro';
     src: url('./fonts/AnonymousPro.ttf') format('truetype');
 }
 
@@ -126,31 +126,93 @@ footer ul li img:hover {
     font-weight: bold;
     color: #F69208;
     margin-bottom: 20px;
+    font-family: 'Anonymous Pro', sans-serif;
 }
 
 .subtitulo {
     font-family: 'Anonymous Pro', sans-serif;
     font-size: 1.2rem;
-    color: #333;
-    text-align: left;
-    margin-left: 2rem;
-    margin-bottom: 20px;}
+    color: #000000;
+    text-align: center;
+    margin: 2rem;
+    margin-bottom: 1rem;}
 
-.produtos {
+.options {
     display: grid;
     gap: 1.5rem;
     justify-items: center;
-    padding: 1rem;
+    padding: 0.8rem;
     grid-template-columns: repeat(auto-fill, minmax(10rem, 1fr));
 }
-.produto img {
+.option img {
     width: 100%;
     height: auto;
     max-width: 12rem;
 }
 
-.produto p {
+.option p {
     font-size: 1rem;
     color: #000000;
     text-align: center;
+}
+
+
+.itens {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    padding: 1rem;
+    align-items: center;
+}
+
+.item {
+    width: 100%;
+    max-width: 300px; /* Limita a largura dos retângulos */
+    padding: 1rem;
+    background-color: #f2f2f2;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    text-align: center;
+}
+
+.item a {
+    font-size: 1.2rem;
+    color: #000000;
+    text-decoration: none;
+    display: block;
+    width: 100%;
+    height: 100%;
+    line-height: 2rem;
+}
+
+main p {
+    text-align: center;
+    font-size: 1.1rem;
+    color: #000000;
+    margin-top: 1rem;
+    margin-bottom: 0.5rem;
+    line-height: 2rem;
+    font-family: 'Anonymous Pro', sans-serif;
+    max-width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.botao-container {
+    display: flex;
+    justify-content: center; /* Centraliza o botão horizontalmente */
+    margin-top: 2rem; /* Dá um espaço acima do botão */
+}
+
+.pagar-btn {
+    font-size: 1.2rem;
+    color: #fff;
+    background-color: #F69208; 
+    border: none;
+    margin: 2rem;
+    padding: 0.8rem 2rem;
+    border-radius: 5px;
+    cursor: pointer;
+    text-decoration: none;
+
 }
