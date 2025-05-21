@@ -216,3 +216,10 @@ main p {
     text-decoration: none;
 
 }
+
+.barra_de_pesquisa {
+    font-size: 1.75rem;
+    margin-left: 25%;
+    margin-right: 25%;
+    background-color: white;
+}
