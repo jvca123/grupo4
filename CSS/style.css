@@ -120,13 +120,38 @@ footer ul li img:hover {
     transform: scale(1.2);
 }
 
-.titulo {
+.titulo-container {
+    position: relative;
+    display: flex;
+    align-items: center;
+    height: 3rem; /* ajuste conforme necessário */
+    margin-bottom: 1.5rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+
+.titulo-container .seta_voltar {
+    z-index: 2;
+}
+
+.titulo-container .seta_voltar img {
+    width: 3.5rem;
+    height: auto;
+    margin-right: 1rem;
+}
+
+.titulo-container .titulo {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    margin: 0;
     text-align: center;
     font-size: 2rem;
     font-weight: bold;
     color: #F69208;
-    margin-bottom: 20px;
     font-family: 'Anonymous Pro', sans-serif;
+    width: max-content;
+    z-index: 1;
 }
 
 .subtitulo {
@@ -135,7 +160,8 @@ footer ul li img:hover {
     color: #000000;
     text-align: center;
     margin: 2rem;
-    margin-bottom: 1rem;}
+    margin-bottom: 1rem;
+}
 
 .options {
     display: grid;
@@ -219,7 +245,13 @@ main p {
 
 .barra_de_pesquisa {
     font-size: 1.75rem;
-    margin-left: 25%;
-    margin-right: 25%;
+    margin-left: 4%;
+    margin-right: 35%;
     background-color: white;
+}
+
+.seta_voltar div{
+    width: 100%;
+    height: auto;
+    max-width: 12rem;
 }
