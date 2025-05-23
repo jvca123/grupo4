@@ -8,7 +8,7 @@ document.addEventListener("DOMContentLoaded", function() {
 
                 if (valor === 'pastel') {
                     window.location.href = 'pastel.html';
-                } else if (valor === 'abacaxi') {
+                } else if (valor === 'melancia') {
                     window.location.href = 'mariafrutas.html';
                 } else if (valor === 'brunofrutas') {
                     window.location.href = 'tela_bruno_frutas.html';
