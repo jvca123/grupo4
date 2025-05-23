@@ -215,9 +215,9 @@ main p {
     text-align: center;
     font-size: 1.1rem;
     color: #000000;
-    margin-top: 1rem;
+    margin-top: 0;
     margin-bottom: 0.5rem;
-    line-height: 2rem;
+    line-height: 1.2rem;
     font-family: 'Anonymous Pro', sans-serif;
     max-width: 80%;
     margin-left: auto;
