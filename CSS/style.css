@@ -55,7 +55,7 @@ header {
 }
 
 .barra_superior ul li a img{
-    width: 2rem;
+    width: 2.5rem;
     height: auto;
     transition: transform 0.3s ease;
 }
@@ -97,7 +97,7 @@ footer {
 footer ul {
     display: flex;
     justify-content: space-around;
-    align-items:center;
+    align-items:space-between;
     list-style: none;
 }
 
@@ -111,7 +111,7 @@ footer ul li a {
 }
 
 footer ul li img {
-    width: 3rem;
+    width: 2.5rem;
     height: auto;
     transition: transform 0.3s ease;
 }
