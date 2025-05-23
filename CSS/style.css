@@ -169,9 +169,10 @@ footer ul li img:hover {
     justify-items: center;
     padding: 0.8rem;
     grid-template-columns: repeat(auto-fill, minmax(10rem, 1fr));
+    
 }
 .option img {
-    width: 100%;
+    width: 70%;
     height: auto;
     max-width: 12rem;
 }
@@ -267,4 +268,17 @@ main p {
 }
 a{
     text-decoration: none;
+}
+.option  a{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color:#f2f2f2;
+    height: 10rem;
+    width: auto;
+    padding: 0.5rem;
+}
+.options div{
+    margin-top: 1rem;
+
 }
