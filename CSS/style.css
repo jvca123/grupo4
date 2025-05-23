@@ -255,3 +255,13 @@ main p {
     height: auto;
     max-width: 12rem;
 }
+.title{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    font-weight: bold;
+    font-size: 2rem ;
+    font-family: 'Anonymous Pro', sans-serif;
+    color: #F69208;
+    
+}
