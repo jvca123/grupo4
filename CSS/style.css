@@ -91,7 +91,7 @@ footer {
     bottom:0;
     height: 3rem; 
     width: 100%;
-    background-color:  #05AFF2;
+    background-color:  #0476D9;
 }
 
 footer ul {
@@ -264,4 +264,7 @@ main p {
     font-family: 'Anonymous Pro', sans-serif;
     color: #F69208;
     
+}
+a{
+    text-decoration: none;
 }
